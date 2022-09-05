@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Red Rose", cursive; */
+}
+body {
+  /* position: absolute; */
+  background-color: #ffffff;
+  margin: 5% 5%;
+}
+.container {
+  /* position:absoloue; */
+  display: block;
+  width: 100vh;
+  height: 100vh;
+}
+nav {
+  height: 20vh;
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 70px;
+}
+nav .list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  color: #918888;
+  list-style-type: none;
+}
+.grow-list ul :first-child {
+  color: #000000;
+}
+.nav-button {
+  background-color: #6628d8;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+}
+.banner-container {
+  height: 80vh;
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-container img {
+  width: 300px;
+  height: 450px;
+}
+h1 {
+  font-size: 45px;
+}
+
+span {
+  color: #6628d8;
+}
+p {
+  font-size: 15px;
+  color: #a09898;
+}
+h1 {
+  line-height: 1em;
+}
+.nav-button btn {
+  position: relative;
+  top: 40px;
+}
+.banner-container h1,
+p {
+  position: relative;
+  bottom: 50px;
+}
+nav-button btn {
+  position: relative;
+  left: 60px;
+}
